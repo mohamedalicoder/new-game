@@ -32,6 +32,29 @@ img {
   width: 80%;
 }
 
+.botn{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  text-align: center;
+  background-color: #4ECCA3;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 7px 7px #232931;
+  transition: all .3s ease-in-out;
+}
+.btn:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color:#3c9688;
+
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
